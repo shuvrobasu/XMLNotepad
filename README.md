@@ -13,7 +13,7 @@ XML Notepad is a Python-based desktop application built with Tkinter for viewing
     *   View details of selected XML nodes (tag, text, attributes).
     *   Context menu on XML tree nodes for actions like "Export Node as CSV".
       
-*   **Automatic Table Detection & Editing:** <b><font color=red>UNIQUE FEATURE</font></B>
+*   **Automatic Table Detection & Editing:** <b><i><font color=red>UNIQUE FEATURE</font></i></B>
     *   Intelligently identifies and extracts tabular data from XML structures based on repetitive child tags.
     *   Displays detected tables in a user-friendly, editable grid (Treeview).
     *   Select different detected tables via a combobox.

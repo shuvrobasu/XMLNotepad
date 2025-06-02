@@ -122,6 +122,7 @@ No external libraries are required.
 *   `Edit > Undo` (or `Ctrl+Z` equivalent, though not explicitly bound in this version for undo/redo)
 *   `Edit > Redo` (or `Ctrl+Y` equivalent)
 *   These actions apply to table cell edits and row operations (Cut, Paste, Delete). The undo stack has a limited size (`UNDO_STACK_SIZE`).
+   * Currently this is restricted to 20 undo/redo operations. This can be configured within the program. Do not change this setting if you have limited RAM (< 16GB) 
 
 ## Configuration Constants (in code)
 

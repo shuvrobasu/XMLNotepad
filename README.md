@@ -154,4 +154,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
-This project is open-source. You can consider adding a specific license like MIT:
+This project is open-source AND released under MIT license. (c) Shuvro Basu, 2025.

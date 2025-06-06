@@ -84,9 +84,7 @@ Manually query editor
    ```bash
    python xml_notepad.py
    ```
-**Use code with caution.**
-
-## Usage Guide
+# Usage Guide
 
 ### 1. Opening an XML File
 - Go to `File > Open XML...` (or press `Ctrl+O`).

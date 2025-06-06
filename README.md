@@ -26,10 +26,6 @@ XML-Notepad is a Python-based desktop application built with Tkinter for viewing
 
 ### Advanced Query Designer (NEW FEATURE)
 Access via `Utils > Query Designer...`.
-|-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-![image](https://github.com/user-attachments/assets/d35d8b4f-1b57-4dd0-b731-9be858c63894) | ![image](https://github.com/user-attachments/assets/0d763d97-f721-4c8f-9d89-ef45fbfb9252) |
-Main designer | Manually query editor
-
 
 #### Visual Designer Tab
 - Select two tables (Table 1 and Table 2) from the loaded XML.
@@ -37,10 +33,17 @@ Main designer | Manually query editor
 - Select desired output fields (columns) from both tables using a shuttle control.
 - Reorder output fields using "Up" and "Down" buttons to define report column order.
 
+![image](https://github.com/user-attachments/assets/d35d8b4f-1b57-4dd0-b731-9be858c63894) 
+Main Visual designer  
+
+
 #### Query View Tab
 - View a SQL-like representation of the visually designed query (auto-updates).
 - Toggle Edit Mode to manually edit the query text directly.
 - **Validate & Apply to Designer**: Parse manually entered query text and update the visual designer's state if valid.
+
+![image](https://github.com/user-attachments/assets/0d763d97-f721-4c8f-9d89-ef45fbfb9252) 
+Manually query editor
 
 #### Query Options
 - Choose between Inner Join (matching records) and Left Anti-Join (records from Table 1 not matching Table 2).

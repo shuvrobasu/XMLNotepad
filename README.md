@@ -26,8 +26,8 @@ XML-Notepad is a Python-based desktop application built with Tkinter for viewing
 
 ### Advanced Query Designer (NEW FEATURE)
 Access via `Utils > Query Designer...`.
-
-![image](https://github.com/user-attachments/assets/d35d8b4f-1b57-4dd0-b731-9be858c63894) | ![image](https://github.com/user-attachments/assets/0d763d97-f721-4c8f-9d89-ef45fbfb9252)
+|-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+![image](https://github.com/user-attachments/assets/d35d8b4f-1b57-4dd0-b731-9be858c63894) | ![image](https://github.com/user-attachments/assets/0d763d97-f721-4c8f-9d89-ef45fbfb9252) |
 Main designer | Manually query editor
 
 

@@ -150,11 +150,19 @@ Manually query editor
 - In "1. Select Tables", choose your Left (T1) and Right (T2) tables.
 - In "2. Define Join Conditions", select corresponding fields from T1 and T2, then click "Add Join ->". Repeat for compound keys.
 - In "3. Design Report Output", use the `>` and `<` buttons to move fields between "Available Fields" and "Selected Fields". Use "Up" and "Down" buttons to reorder columns in the output report.
+- ** NEW ** ability to use only 1 table. When you use only 1 table then the you can choose filter conditions instead of JOIN conditions.
+
+![image](https://github.com/user-attachments/assets/0087cac5-d8de-46da-b93b-e7201934b7c2)
+
 
 #### Query View Tab
 - Observe the dynamically generated SQL-like query.
 - Click "Toggle Edit Mode" to manually modify the query.
+- Typing a table name like `T1:` now shows an intellsense list of fields for that table to quickly type in the fieldss. Fields are selected by double-clicking or pressing enter/return key.
 - After editing, click "Validate & Apply to Designer" to parse your changes and update the visual designer.
+
+![image](https://github.com/user-attachments/assets/23f69294-cc46-4980-8125-e103b13715a7)
+
 
 #### Set Options and Run
 - In "4. Set Options and Run", select "Inner Join" for matching records or "Left Anti-Join" for T1 records with no T2 match.

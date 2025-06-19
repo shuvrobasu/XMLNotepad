@@ -4,6 +4,9 @@
 
 XML-Notepad is a Python-based desktop application built with Tkinter for viewing and navigating XML files, with a powerful focus on identifying, querying, and working with tabular data within XML structures. It allows users to open large XML files, automatically detect and display repetitive elements as tables, and perform complex data operations using an intuitive query designer.
 
+![image](https://github.com/user-attachments/assets/f6c729e6-a986-4add-a45c-a28d12e5d271)
+
+
 ## Key Features
 
 ### XML Viewing & Navigation
@@ -26,7 +29,8 @@ Access via Utils > Query Designer....
 - **Group By & Aggregation:** Summarize your data by grouping it by one or more fields. Apply aggregate functions (COUNT, SUM, AVG, MIN, MAX) to your output fields to create powerful summary reports.
 - **Flexible Report Design:** Select desired output fields from all available tables. Reorder fields to define the final report structure.
 
-![alt text](https://github.com/user-attachments/assets/e0f2142f-87d8-4a57-8a4c-c0c538a74c7e)
+![image](https://github.com/user-attachments/assets/2dc15ff8-0935-4784-be35-5062ea0a1b87)
+
 *Main Visual Designer with the new Condition Builder and Group By section.*
 
 #### Simple Query Tab
@@ -103,6 +107,9 @@ python xml_notepad.py
 - **Simple Query / SQL View:** Use these tabs for text-based querying as described in the Features section.
 - **Save/Load:** Use the Query menu within the designer to save and load your work.
 - **Help:** Press F1 at any time to open the detailed help document.
+
+![image](https://github.com/user-attachments/assets/ba8b4fdd-8160-4683-8cd3-b43c05695684)
+
 
 ## Configuration Constants (in code)
 - `CHUNK_SIZE = 1024 * 1024`: Size of chunks (1MB) for reading large XML files.

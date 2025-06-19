@@ -1,13 +1,16 @@
-# XML/CSV-Notepad `latest ver 3`
+# XML/CSV-Notepad - Version 3.0.0
 
-# XML/CSV-Notepad
+XML/CSV-Notepad is a Python-based desktop application built with Tkinter for viewing and navigating XML files, with a powerful focus on identifying, querying, and working with tabular data within XML structures. It allows users to open large XML files, automatically detect and display repetitive elements as tables, and perform complex data operations using an intuitive query designer. XML/CSV Notepad also supports viewing of CSV files in a tabular format and user can benefit from all the features in the tool like query, viewer etc.
 
-XML/CSV-Notepad is a Python-based desktop application built with Tkinter for viewing and navigating XML files, with a powerful focus on identifying, querying, and working with tabular data within XML structures. It allows users to open large XML files, automatically detect and display repetitive elements as tables, and perform complex data operations using an intuitive query designer.
+![alt text](https://github.com/user-attachments/assets/f6c729e6-a986-4add-a45c-a28d12e5d271)
 
-<b>XML/CSV Notepad</b> also supports viewing of CSV files in a tabular format and user can benefit from all the features in the tool like query, viewer etc.
+## Version 3.0.0 (Latest) - Bug Fix & Stability Enhancement
 
-![image](https://github.com/user-attachments/assets/f6c729e6-a986-4add-a45c-a28d12e5d271)
+This version addresses a critical bug in the XSD generation feature and significantly improves its reliability.
 
+- **Fixed:** The Generate XSD from XML utility (under the Utils menu) was non-functional due to incorrect library dependencies and API calls. This has been resolved.
+- **Enhancement:** The faulty XSD generation logic has been completely replaced with a new, robust, self-contained engine. The application now manually traverses the XML structure to infer a basic but valid schema without external help.
+- **Removed Dependency:** The tool no longer requires any third-party libraries (like xmlschema) for this feature, simplifying setup and improving stability.
 
 ## Key Features
 
@@ -21,9 +24,11 @@ XML/CSV-Notepad is a Python-based desktop application built with Tkinter for vie
 - Displays detected tables in a user-friendly grid.
 
 ### Advanced Query Designer (NEW FEATURE)
+
 Access via Utils > Query Designer....
 
 #### Visual Designer Tab
+
 **Build Complex Queries Visually:**
 - Select one or two tables for querying (SELECT...FROM) or joining (JOIN).
 - **Intuitive Condition Builder:** Create complex WHERE and ON clauses using a sequential builder. Add conditions, logical operators (AND, OR, NOT), and parentheses () to control the order of operations.
@@ -31,7 +36,7 @@ Access via Utils > Query Designer....
 - **Group By & Aggregation:** Summarize your data by grouping it by one or more fields. Apply aggregate functions (COUNT, SUM, AVG, MIN, MAX) to your output fields to create powerful summary reports.
 - **Flexible Report Design:** Select desired output fields from all available tables. Reorder fields to define the final report structure.
 
-![image](https://github.com/user-attachments/assets/2dc15ff8-0935-4784-be35-5062ea0a1b87)
+![alt text](https://github.com/user-attachments/assets/2dc15ff8-0935-4784-be35-5062ea0a1b87)
 
 *Main Visual Designer with the new Condition Builder and Group By section.*
 
@@ -68,6 +73,7 @@ Access via Utils > Query Designer....
 ## Requirements
 - Python 3.6+
 - Tkinter (usually included with standard Python installations)
+- lxml (`pip install lxml`)
 
 ## How to Run
 1. Create a help.md file in the same directory as the script (content provided in a separate file).
@@ -110,8 +116,7 @@ python xml_notepad.py
 - **Save/Load:** Use the Query menu within the designer to save and load your work.
 - **Help:** Press F1 at any time to open the detailed help document.
 
-![image](https://github.com/user-attachments/assets/ba8b4fdd-8160-4683-8cd3-b43c05695684)
-
+![alt text](https://github.com/user-attachments/assets/ba8b4fdd-8160-4683-8cd3-b43c05695684)
 
 ## Configuration Constants (in code)
 - `CHUNK_SIZE = 1024 * 1024`: Size of chunks (1MB) for reading large XML files.

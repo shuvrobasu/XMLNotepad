@@ -4,14 +4,6 @@ XML/CSV-Notepad is a Python-based desktop application built with Tkinter for vie
 
 ![alt text](https://github.com/user-attachments/assets/f6c729e6-a986-4add-a45c-a28d12e5d271)
 
-## Version 3.0.0 (Latest) - Bug Fix & Stability Enhancement
-
-This version addresses a critical bug in the XSD generation feature and significantly improves its reliability.
-
-- **Fixed:** The Generate XSD from XML utility (under the Utils menu) was non-functional due to incorrect library dependencies and API calls. This has been resolved.
-- **Enhancement:** The faulty XSD generation logic has been completely replaced with a new, robust, self-contained engine. The application now manually traverses the XML structure to infer a basic but valid schema without external help.
-- **Removed Dependency:** The tool no longer requires any third-party libraries (like xmlschema) for this feature, simplifying setup and improving stability.
-
 ## Key Features
 
 ### XML Viewing & Navigation

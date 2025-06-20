@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<university_data>
+  <students>
+    <student student_id="S001">
+      <first_name>Liam</first_name>
+      <last_name>Smith</last_name>
+      <major>Computer Science</major>
+      <enrollment_year>2022</enrollment_year>
+    </student>
+    <student student_id="S002">
+      <first_name>Olivia</first_name>
+      <last_name>Johnson</last_name>
+      <major>Mathematics</major>
+      <enrollment_year>2021</enrollment_year>
+    </student>
+    <student student_id="S003">
+      <first_name>Noah</first_name>
+      <last_name>Williams</last_name>
+      <major>Physics</major>
+      <enrollment_year>2023</enrollment_year>
+    </student>
+    <student student_id="S004">
+      <first_name>Emma</first_name>
+      <last_name>Brown</last_name>
+      <major>Chemistry</major>
+      <enrollment_year>2022</enrollment_year>
+    </student>
+    <student student_id="S005">
+      <first_name>Oliver</first_name>
+      <last_name>Jones</last_name>
+      <major>Biology</major>
+      <enrollment_year>2021</enrollment_year>
+    </student>
+    <student student_id="S006">
+      <first_name>Ava</first_name>
+      <last_name>Garcia</last_name>
+      <major>History</major>
+      <enrollment_year>2023</enrollment_year>
+    </student>
+    <student student_id="S007">
+      <first_name>Elijah</first_name>
+      <last_name>Miller</last_name>
+      <major>English</major>
+      <enrollment_year>2022</enrollment_year>
+    </student>
+    <student student_id="S008">
+      <first_name>Charlotte</first_name>
+      <last_name>Davis</last_name>
+      <major>Economics</major>
+      <enrollment_year>2021</enrollment_year>
+    </student>
+    <student student_id="S009">
+      <first_name>William</first_name>
+      <last_name>Rodriguez</last_name>
+      <major>Computer Science</major>
+      <enrollment_year>2023</enrollment_year>
+    </student>
+    <student student_id="S010">
+      <first_name>Sophia</first_name>
+      <last_name>Martinez</last_name>
+      <major>Mathematics</major>
+      <enrollment_year>2022</enrollment_year>
+    </student>
+    <student student_id="S011">
+      <first_name>James</first_name>
+      <last_name>Smith</last_name>
+      <major>Physics</major>
+      <enrollment_year>2021</enrollment_year>
+    </student>
+    <student student_id="S012">
+      <first_name>Amelia</first_name>
+      <last_name>Johnson</last_name>
+      <major>Chemistry</major>
+      <enrollment_year>2023</enrollment_year>
+    </student>
+    <student student_id="S013">
+      <first_name>Benjamin</first_name>
+      <last_name>Williams</last_name>
+      <major>Biology</major>
+      <enrollment_year>2022</enrollment_year>
+    </student>
+    <student student_id="S014">
+      <first_name>Isabella</first_name>
+      <last_name>Brown</last_name>
+      <major>History</major>
+      <enrollment_year>2021</enrollment_year>
+    </student>
+    <student student_id="S015">
+      <first_name>Lucas</first_name>
+      <last_name>Jones</last_name>
+      <major>English</major>
+      <enrollment_year>2023</enrollment_year>
+    </student>
+    <student student_id="S016">
+      <first_name>Mia</first_name>
+      <last_name>Garcia</last_name>
+      <major>Economics</major>
+      <enrollment_year>2022</enrollment_year>
+    </student>
+    <student student_id="S017">
+      <first_name>Henry</first_name>
+      <last_name>Miller</last_name>
+      <major>Computer Science</major>
+      <enrollment_year>2021</enrollment_year>
+    </student>
+    <student student_id="S018">
+      <first_name>Evelyn</first_name>
+      <last_name>Davis</last_name>
+      <major>Mathematics</major>
+      <enrollment_year>2023</enrollment_year>
+    </student>
+    <student student_id="S019">
+      <first_name>Alexander</first_name>
+      <last_name>Rodriguez</last_name>
+      <major>Physics</major>
+      <enrollment_year>2022</enrollment_year>
+    </student>
+    <student student_id="S020">
+      <first_name>Harper</first_name>
+      <last_name>Martinez</last_name>
+      <major>Chemistry</major>
+      <enrollment_year>2021</enrollment_year>
+    </student>
+  </students>
+  <courses>
+    <course course_id="C101">
+      <course_name>Introduction to Python</course_name>
+      <department>Computer Science</department>
+      <credits>3</credits>
+    </course>
+    <course course_id="C102">
+      <course_name>Data Structures</course_name>
+      <department>Computer Science</department>
+      <credits>4</credits>
+    </course>
+    <course course_id="M201">
+      <course_name>Calculus I</course_name>
+      <department>Mathematics</department>
+      <credits>4</credits>
+    </course>
+    <course course_id="M202">
+      <course_name>Linear Algebra</course_name>
+      <department>Mathematics</department>
+      <credits>3</credits>
+    </course>
+    <course course_id="P301">
+      <course_name>Classical Mechanics</course_name>
+      <department>Physics</department>
+      <credits>4</credits>
+    </course>
+    <course course_id="CH401">
+      <course_name>Organic Chemistry</course_name>
+      <department>Chemistry</department>
+      <credits>4</credits>
+    </course>
+    <course course_id="B501">
+      <course_name>Cell Biology</course_name>
+      <department>Biology</department>
+      <credits>3</credits>
+    </course>
+    <course course_id="H601">
+      <course_name>World History</course_name>
+      <department>History</department>
+      <credits>3</credits>
+    </course>
+    <course course_id="E701">
+      <course_name>Shakespeare</course_name>
+      <department>English</department>
+      <credits>3</credits>
+    </course>
+    <course course_id="EC801">
+      <course_name>Microeconomics</course_name>
+      <department>Economics</department>
+      <credits>3</credits>
+    </course>
+  </courses>
+  <marks>
+    <mark>
+      <student_id>S001</student_id>
+      <course_id>C101</course_id>
+      <semester>Fall 2022</semester>
+      <score>95</score>
+    </mark>
+    <mark>
+      <student_id>S001</student_id>
+      <course_id>C102</course_id>
+      <semester>Spring 2023</semester>
+      <score>88</score>
+    </mark>
+    <mark>
+      <student_id>S002</student_id>
+      <course_id>M201</course_id>
+      <semester>Fall 2022</semester>
+      <score>91</score>
+    </mark>
+    <mark>
+      <student_id>S002</student_id>
+      <course_id>M202</course_id>
+      <semester>Spring 2023</semester>
+      <score>94</score>
+    </mark>
+    <mark>
+      <student_id>S003</student_id>
+      <course_id>P301</course_id>
+      <semester>Fall 2023</semester>
+      <score>85</score>
+    </mark>
+    <mark>
+      <student_id>S004</student_id>
+      <course_id>CH401</course_id>
+      <semester>Fall 2022</semester>
+      <score>92</score>
+    </mark>
+    <mark>
+      <student_id>S005</student_id>
+      <course_id>B501</course_id>
+      <semester>Fall 2021</semester>
+      <score>89</score>
+    </mark>
+    <mark>
+      <student_id>S006</student_id>
+      <course_id>H601</course_id>
+      <semester>Fall 2023</semester>
+      <score>93</score>
+    </mark>
+    <mark>
+      <student_id>S007</student_id>
+      <course_id>E701</course_id>
+      <semester>Fall 2022</semester>
+      <score>87</score>
+    </mark>
+    <mark>
+      <student_id>S008</student_id>
+      <course_id>EC801</course_id>
+      <semester>Fall 2021</semester>
+      <score>90</score>
+    </mark>
+    <mark>
+      <student_id>S009</student_id>
+      <course_id>C101</course_id>
+      <semester>Fall 2023</semester>
+      <score>96</score>
+    </mark>
+    <mark>
+      <student_id>S009</student_id>
+      <course_id>C102</course_id>
+      <semester>Spring 2024</semester>
+      <score>91</score>
+    </mark>
+    <mark>
+      <student_id>S010</student_id>
+      <course_id>M201</course_id>
+      <semester>Fall 2022</semester>
+      <score>88</score>
+    </mark>
+    <mark>
+      <student_id>S011</student_id>
+      <course_id>P301</course_id>
+      <semester>Fall 2021</semester>
+      <score>94</score>
+    </mark>
+    <mark>
+      <student_id>S012</student_id>
+      <course_id>CH401</course_id>
+      <semester>Fall 2023</semester>
+      <score>86</score>
+    </mark>
+    <mark>
+      <student_id>S013</student_id>
+      <course_id>B501</course_id>
+      <semester>Fall 2022</semester>
+      <score>90</score>
+    </mark>
+    <mark>
+      <student_id>S014</student_id>
+      <course_id>H601</course_id>
+      <semester>Fall 2021</semester>
+      <score>89</score>
+    </mark>
+    <mark>
+      <student_id>S015</student_id>
+      <course_id>E701</course_id>
+      <semester>Fall 2023</semester>
+      <score>92</score>
+    </mark>
+    <mark>
+      <student_id>S016</student_id>
+      <course_id>EC801</course_id>
+      <semester>Fall 2022</semester>
+      <score>95</score>
+    </mark>
+    <mark>
+      <student_id>S017</student_id>
+      <course_id>C101</course_id>
+      <semester>Fall 2021</semester>
+      <score>84</score>
+    </mark>
+    <mark>
+      <student_id>S017</student_id>
+      <course_id>C102</course_id>
+      <semester>Spring 2022</semester>
+      <score>89</score>
+    </mark>
+    <mark>
+      <student_id>S018</student_id>
+      <course_id>M202</course_id>
+      <semester>Spring 2024</semester>
+      <score>93</score>
+    </mark>
+    <mark>
+      <student_id>S019</student_id>
+      <course_id>P301</course_id>
+      <semester>Fall 2022</semester>
+      <score>88</score>
+    </mark>
+    <mark>
+      <student_id>S020</student_id>
+      <course_id>CH401</course_id>
+      <semester>Fall 2021</semester>
+      <score>91</score>
+    </mark>
+    <mark>
+      <student_id>S001</student_id>
+      <course_id>M201</course_id>
+      <semester>Fall 2022</semester>
+      <score>78</score>
+    </mark>
+    <mark>
+      <student_id>S002</student_id>
+      <course_id>C101</course_id>
+      <semester>Fall 2021</semester>
+      <score>82</score>
+    </mark>
+    <mark>
+      <student_id>S003</student_id>
+      <course_id>EC801</course_id>
+      <semester>Fall 2023</semester>
+      <score>88</score>
+    </mark>
+    <mark>
+      <student_id>S004</student_id>
+      <course_id>E701</course_id>
+      <semester>Fall 2022</semester>
+      <score>90</score>
+    </mark>
+    <mark>
+      <student_id>S005</student_id>
+      <course_id>H601</course_id>
+      <semester>Fall 2021</semester>
+      <score>85</score>
+    </mark>
+    <mark>
+      <student_id>S006</student_id>
+      <course_id>B501</course_id>
+      <semester>Fall 2023</semester>
+      <score>91</score>
+    </mark>
+    <mark>
+      <student_id>S007</student_id>
+      <course_id>P301</course_id>
+      <semester>Fall 2022</semester>
+      <score>84</score>
+    </mark>
+    <mark>
+      <student_id>S008</student_id>
+      <course_id>M202</course_id>
+      <semester>Spring 2022</semester>
+      <score>96</score>
+    </mark>
+    <mark>
+      <student_id>S010</student_id>
+      <course_id>C101</course_id>
+      <semester>Fall 2022</semester>
+      <score>93</score>
+    </mark>
+    <mark>
+      <student_id>S012</student_id>
+      <course_id>P301</course_id>
+      <semester>Fall 2023</semester>
+      <score>79</score>
+    </mark>
+    <mark>
+      <student_id>S015</student_id>
+      <course_id>H601</course_id>
+      <semester>Fall 2023</semester>
+      <score>85</score>
+    </mark>
+    <mark>
+      <student_id>S018</student_id>
+      <course_id>EC801</course_id>
+      <semester>Fall 2023</semester>
+      <score>92</score>
+    </mark>
+    <mark>
+      <student_id>S019</student_id>
+      <course_id>C102</course_id>
+      <semester>Spring 2023</semester>
+      <score>88</score>
+    </mark>
+    <mark>
+      <student_id>S020</student_id>
+      <course_id>M201</course_id>
+      <semester>Fall 2021</semester>
+      <score>81</score>
+    </mark>
+    <mark>
+      <student_id>S001</student_id>
+      <course_id>P301</course_id>
+      <semester>Fall 2023</semester>
+      <score>83</score>
+    </mark>
+    <mark>
+      <student_id>S002</student_id>
+      <course_id>EC801</course_id>
+      <semester>Fall 2021</semester>
+      <score>94</score>
+    </mark>
+    <mark>
+      <student_id>S003</student_id>
+      <course_id>C101</course_id>
+      <semester>Fall 2023</semester>
+      <score>90</score>
+    </mark>
+    <mark>
+      <student_id>S004</student_id>
+      <course_id>M201</course_id>
+      <semester>Fall 2022</semester>
+      <score>87</score>
+    </mark>
+    <mark>
+      <student_id>S005</student_id>
+      <course_id>E701</course_id>
+      <semester>Fall 2021</semester>
+      <score>88</score>
+    </mark>
+    <mark>
+      <student_id>S006</student_id>
+      <course_id>CH401</course_id>
+      <semester>Fall 2023</semester>
+      <score>91</score>
+    </mark>
+    <mark>
+      <student_id>S007</student_id>
+      <course_id>B501</course_id>
+      <semester>Fall 2022</semester>
+      <score>95</score>
+    </mark>
+    <mark>
+      <student_id>S008</student_id>
+      <course_id>H601</course_id>
+      <semester>Fall 2021</semester>
+      <score>86</score>
+    </mark>
+    <mark>
+      <student_id>S009</student_id>
+      <course_id>M202</course_id>
+      <semester>Spring 2024</semester>
+      <score>92</score>
+    </mark>
+    <mark>
+      <student_id>S010</student_id>
+      <course_id>P301</course_id>
+      <semester>Fall 2022</semester>
+      <score>89</score>
+    </mark>
+    <mark>
+      <student_id>S011</student_id>
+      <course_id>C101</course_id>
+      <semester>Fall 2021</semester>
+      <score>93</score>
+    </mark>
+    <mark>
+      <student_id>S012</student_id>
+      <course_id>EC801</course_id>
+      <semester>Fall 2023</semester>
+      <score>91</score>
+    </mark>
+    <mark>
+      <student_id>S013</student_id>
+      <course_id>M201</course_id>
+      <semester>Fall 2022</semester>
+      <score>85</score>
+    </mark>
+    <mark>
+      <student_id>S014</student_id>
+      <course_id>C102</course_id>
+      <semester>Spring 2022</semester>
+      <score>88</score>
+    </mark>
+    <mark>
+      <student_id>S015</student_id>
+      <course_id>B501</course_id>
+      <semester>Fall 2023</semester>
+      <score>94</score>
+    </mark>
+    <mark>
+      <student_id>S016</student_id>
+      <course_id>P301</course_id>
+      <semester>Fall 2022</semester>
+      <score>90</score>
+    </mark>
+    <mark>
+      <student_id>S017</student_id>
+      <course_id>M201</course_id>
+      <semester>Fall 2021</semester>
+      <score>86</score>
+    </mark>
+    <mark>
+      <student_id>S018</student_id>
+      <course_id>C101</course_id>
+      <semester>Fall 2023</semester>
+      <score>89</score>
+    </mark>
+    <mark>
+      <student_id>S019</student_id>
+      <course_id>E701</course_id>
+      <semester>Fall 2022</semester>
+      <score>91</score>
+    </mark>
+    <mark>
+      <student_id>S020</student_id>
+      <course_id>H601</course_id>
+      <semester>Fall 2021</semester>
+      <score>93</score>
+    </mark>
+    <mark>
+      <student_id>S001</student_id>
+      <course_id>EC801</course_id>
+      <semester>Fall 2023</semester>
+      <score>85</score>
+    </mark>
+  </marks>
+</university_data>

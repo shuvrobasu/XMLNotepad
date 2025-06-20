@@ -1,4 +1,4 @@
-# XML/CSV-Notepad - Version 4.1.0
+# XML/CSV-Notepad - Version 4.0
 
 XML/CSV-Notepad is a Python-based desktop application built with Tkinter for viewing and navigating XML and CSV files. It excels at identifying, querying, and working with tabular data structures. Users can open large files, have tables automatically detected, and perform complex data operations using an intuitive, multi-tabbed interface and a powerful query designer.
 

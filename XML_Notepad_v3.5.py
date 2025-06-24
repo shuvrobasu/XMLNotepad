@@ -2890,6 +2890,7 @@ class XMLNotepad:
         self.root = root
         self.root.title("XML/CSV Notepad")
         self.root.geometry("1300x850")
+         root.state('zoomed') #Fullscreen by default
         self.file_type = None
         self.xml_tree_root = None
         self.tree_item_to_element = {}
